@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主要界面</title>
+    <style>
+        .circle-img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .circle-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle-img">
+        <img src="C:\Users\IKUN\Documents\GitHub\DCLZH1.github.io\Main.jpg" alt="圆形图片">
+    </div>
+    <!-- 其他内容 -->
+</body>
+</html>
